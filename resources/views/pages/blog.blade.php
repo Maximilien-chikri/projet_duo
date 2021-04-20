@@ -1,0 +1,80 @@
+@extends('layout.index')
+
+@section('content')
+<main id="main" class="site-main">
+
+    <section class="site-section-small section-blog">
+
+        <div class="container">
+
+            <div class="text-center">
+
+                <h1 class="section-title-big">Blog</h1>
+                <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            
+            </div>
+
+            <ol class="breadcrumb">
+                <li><a href="{{route('home')}}">Home</a></li>
+                <li class="active">Blog</li>
+            </ol><!-- /.breadcrumb -->
+
+            <div class="row">
+
+                <div class="col-md-9">
+
+                    <div class="blog-post">
+
+                        <a href="blog-post.html"><img class="img-carousel post-img" src={{asset("img/portfolio-1.jpg")}} alt=""></a>
+
+                        <div class="post-content">
+
+                            <h3><a class="post-title" href="{{route('blog')}}">Is Passion Good For Business?</a></h3>
+
+                                    
+                            <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            
+                        </div><!-- /.post-content -->
+
+                    </div><!-- /.blog-post -->
+                    <div class="blog-post">
+
+                        <a href="blog-post.html"><img class="img-carousel post-img" src={{asset("img/portfolio-1.jpg")}} alt=""></a>
+
+                        <div class="post-content">
+
+                            <h3><a class="post-title" href="{{route('blog')}}">Is Passion Good For Business?</a></h3>
+
+                                    
+                            <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            
+                        </div><!-- /.post-content -->
+
+                    </div><!-- /.blog-post -->
+
+
+                </div>
+            </div>
+        </div>
+        
+    </section><!-- /.section-blog -->
+
+    <section class="social-networks">
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <a class="white-text black-bg twitter-bg" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a class="white-text gray-bg facebook-bg" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a class="white-text black-bg google-plus-bg" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                <a class="white-text gray-bg message-bg" href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+
+            </div>
+            
+        </div>
+        
+    </section><!-- /.social-networks -->
+
+</main><!-- /.site-main -->
+@endsection
