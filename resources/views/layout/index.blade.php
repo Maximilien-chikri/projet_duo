@@ -30,13 +30,13 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
 
     <!-- Bootstrap core CSS -->
-    <link href={{asset('css/bootstrap.min.css')}} rel="stylesheet">    
-
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">    
+    
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href={{asset('css/app.css')}}>
-    <link href={{asset('css/style.css')}} rel="stylesheet">
-    <link href={{asset('css/responsive.css')}} rel="stylesheet">
-    <link href={{asset('css/colors.css')}} rel="stylesheet">
+    {{-- < --}}
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/responsive.css')}}" rel="stylesheet">
+    <link href="{{asset('css/colors.css')}}" rel="stylesheet">
 </head>
 <body>
     @include('partial.header')

@@ -21,3 +21,7 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 route::get('/blog', [BlogController::class, 'index'])->name('blog');
 route::get('/contact', [ContactController::class, 'index'])->name('contact');
 route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio');
+
+route::get('/admin', function(){
+    return view('admin.admin');
+});
